@@ -33,6 +33,5 @@ newStartup.save(function(err) {
 var startup = Startup.findOne({Id:3}, function(err, startup) {
   if(err)
   throw err;
-  console.log(startup);
+  
 });
-console.log(startup);
